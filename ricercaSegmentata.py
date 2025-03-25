@@ -3,7 +3,7 @@ import google.generativeai as genai
 from pymilvus import Collection, connections
 
 # Configura la chiave API di Google AI
-genai.configure(api_key="AIzaSyAatePm0lWyJXSlK7iSnHpy2Zr0ExQCKL0")
+genai.configure(api_key="")
 embedding_model = 'models/embedding-001'
 
 def generate_query_embedding(query):
